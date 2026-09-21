@@ -4,6 +4,8 @@ src/ai_orchestration/__init__.py
 src/ai_orchestration/cli.py
 src/ai_orchestration/config.py
 src/ai_orchestration/main.py
+src/ai_orchestration/observability.py
+src/ai_orchestration/server.py
 src/ai_orchestration.egg-info/PKG-INFO
 src/ai_orchestration.egg-info/SOURCES.txt
 src/ai_orchestration.egg-info/dependency_links.txt
@@ -23,5 +25,9 @@ src/ai_orchestration/tools/__init__.py
 src/ai_orchestration/tools/brand_tools.py
 src/ai_orchestration/tools/search_tools.py
 tests/test_api_client.py
+tests/test_error_handling.py
+tests/test_guardrails.py
+tests/test_observability.py
+tests/test_server.py
 tests/test_tools.py
 tests/test_workflow.py

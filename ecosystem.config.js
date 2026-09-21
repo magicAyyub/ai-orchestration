@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'jumbo-ai-orchestration',
       script: 'uv',
-      args: 'run uvicorn ai_orchestration.server:app --host 127.0.0.1 --port 8000',
+      args: 'run uvicorn --app-dir src ai_orchestration.server:app --host 127.0.0.1 --port 8000',
       cwd: './',
       autorestart: true,
       watch: false,
